@@ -10,8 +10,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    env:
-      CUSTOM_DOMAIN: www.kitalatala.fr
+    #env:
+    #  CUSTOM_DOMAIN: www.kitalatala.fr
 
     steps:
     - uses: actions/checkout@v2
